@@ -806,6 +806,7 @@ main{
 @media (max-width:573px) {
     .storys{
       gap: .4rem;
+      margin-top: 8rem;
     }
 }
 
