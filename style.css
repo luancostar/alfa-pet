@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     text-transform: capitalize;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
     list-style: none;
     text-decoration: none;
     border: none;
@@ -143,6 +143,7 @@ nav .logo{
     display: flex;
     align-items: center; 
     gap: 1rem;   
+    border-radius: 10px;
 }
 
 .search-bar input[type="search"]{
@@ -472,7 +473,8 @@ main{
 .main-right .messages{
     background: var(--color-white);  
     border-radius: var(--card-border-radius);
-    padding: var(--card-padding);  
+    padding: var(--card-padding);
+    border-radius: 10px;  
 }
 .main-right .message-heading{
     display: flex;
